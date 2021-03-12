@@ -1,0 +1,23 @@
+<h1>Hi</h1>
+
+<a class="btn btn-warning" routerLink="/">Home</a><br>
+<a class="btn btn-primary" routerLink="/myform">MyForm</a>
+<button class="btn btn-danger" (click)="truncates()">Truncate</button>
+<!-- <p>{{getdata | json}}</p> -->
+
+<table>
+  <tr *ngFor="let object of getdata">
+
+    <td> {{object.empid}}</td>
+    <td>{{object.ename}}</td>
+    <td>{{object.salary}}</td>
+  </tr>
+</table>
+
+<div>
+  <router-outlet></router-outlet>
+</div>
+
+<button (click)="postMethod()"> post data</button>
+
+<p>response: {{response |async| json}}</p>

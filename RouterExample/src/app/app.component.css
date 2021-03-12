@@ -1,0 +1,21 @@
+li{
+    float: left;
+    list-style-type: none;
+}
+a:hover{
+
+    background-color: rgb(66, 66, 160);
+}
+ul{
+    margin-bottom: 10px;
+}
+a{
+    background-color: rgb(36, 36, 126);
+    padding: 20px;
+    color: rgb(177, 183, 241);
+    text-decoration: none;
+}
+
+.MainDiv{
+    /* margin-top: 50px; */
+}
